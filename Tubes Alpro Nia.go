@@ -2,14 +2,14 @@ package main
 
 import "fmt"
 
-type tNegara struct {
+type tNegara struct { 
 	Nama     string
 	Emas     int
 	Perak    int
 	Perunggu int
 }
 
-const NMAX int = 100
+const NMAX int = 100 \\ MAX STRUCT
 
 type tabNegara [NMAX]tNegara
 
@@ -206,3 +206,4 @@ func main() {
 		}
 	}
 }
+
